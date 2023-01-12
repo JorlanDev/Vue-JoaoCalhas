@@ -395,8 +395,7 @@ export default {
         width: 20%;
     }
     #btn-calcular{
-        position: relative;
-        width: 15%;
+        position: absolute;
         background: #00acb7;
     }
    @media (max-width: 1500px){
