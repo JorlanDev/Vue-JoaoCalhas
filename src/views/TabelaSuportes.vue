@@ -141,8 +141,10 @@ export default {
     th{
       background: #00acb7;
     }
-    th,td{
-      width: 18%;
+    th,td,tr{
+      left: 0px;
+      position:relative;
+      max-width: 100vh;
       text-align: center;
     }
     .card{
@@ -155,7 +157,14 @@ export default {
     h3,h1{
         text-align: center;
     }
-    @media (max-width: 1500px){
+    @media (max-width: 1300px){
+      th,td,tr{
+        left: 0px;
+        position:relative;
+        max-width: 100vh;
+        text-align: center;
+        font-size: 90%;
+    }
          #container-orca{
             width: 100%;
          }
