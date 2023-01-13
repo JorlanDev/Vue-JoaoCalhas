@@ -14,7 +14,7 @@
       <th scope="col">Material</th>
       <th scope="col">Pintura</th>
       <th id="th-montagem" scope="col">Montagem</th>
-      <th scope="col">Preço/Uni</th>
+      <th scope="col">Preço</th>
        <th scope="col">Ação</th>     
     </tr>
   </thead>

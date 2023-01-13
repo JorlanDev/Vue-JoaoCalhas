@@ -135,9 +135,6 @@ export default {
 </script>
 
 <style scoped>
-    body{
-      overflow-y: 100%;
-    }
     th{
       background: #00acb7;
     }
