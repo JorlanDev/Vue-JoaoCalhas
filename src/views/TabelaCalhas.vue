@@ -14,7 +14,7 @@
       <th scope="col">Material</th>
       <th scope="col">Pintura</th>
       <th id="th-montagem" scope="col">Montagem</th>
-      <th scope="col">Preço/Metro</th>
+      <th scope="col">Preço</th>
       <th scope="col">Ação</th>     
     </tr>
   </thead>
@@ -135,11 +135,14 @@ export default {
 </script>
 
 <style scoped>
+    body
     th{
       background: #00acb7;
     }
-    th,td{
-      width: 18%;
+    th,td,tr{
+      left: 0px;
+      position:relative;
+      max-width: 100vh;
       text-align: center;
     }
     .card{
@@ -152,7 +155,14 @@ export default {
     h3,h1{
         text-align: center;
     }
-    @media (max-width: 1500px){
+    @media (max-width: 1300px){
+      th,td,tr{
+        left: 0px;
+        position:relative;
+        max-width: 100vh;
+        text-align: center;
+        font-size: 90%;
+    }
          #container-orca{
             width: 100%;
          }
