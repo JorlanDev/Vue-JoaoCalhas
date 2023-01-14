@@ -267,8 +267,8 @@ export default {
             }
         }
        
-        //Calhas
-        axios.get("http://localhost:3000/dados/calhas",req).then(res => {
+        //Calhas.
+        axios.get("https://astonishing-capybara-e81bd3.netlify.app",req).then(res => {
             console.log(res)
             this.precocalhas = res.data;
         }).catch(err => {
@@ -276,8 +276,8 @@ export default {
         });
         console.log("ola")
 
-            //Suportes.
-        axios.get("http://localhost:3000/dados/suportes",req).then(res => {
+            //Suportes. 
+        axios.get("https://astonishing-capybara-e81bd3.netlify.app",req).then(res => {
             console.log(res)
             this.precosuportes = res.data;
         }).catch(err => {
