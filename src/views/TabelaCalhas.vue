@@ -135,11 +135,7 @@ export default {
 </script>
 
 <style scoped>
-  button{
-    
-    width: 100%;
-  }
-    th{
+  th{
       background: #00acb7;
     }
     th,td,tr{
@@ -179,7 +175,7 @@ export default {
      }
      @media (max-width: 402px){
       table{
-        left: -5px;
+        left: -2%;
       }
      }
 </style>

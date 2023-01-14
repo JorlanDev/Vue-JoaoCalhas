@@ -138,10 +138,6 @@ export default {
 
 
 <style scoped>
-    button{
-    
-    width: 100%;
-  }
     th{
       background: #00acb7;
     }
@@ -182,7 +178,7 @@ export default {
      }
      @media (max-width: 402px){
       table{
-        left: -5px;
+        left: -2%;
       }
      }
 </style>
