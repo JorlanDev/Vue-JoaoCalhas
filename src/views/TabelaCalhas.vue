@@ -135,11 +135,14 @@ export default {
 </script>
 
 <style scoped>
+  button{
+    
+    width: 100%;
+  }
     th{
       background: #00acb7;
     }
     th,td,tr{
-      left: 0px;
       position:relative;
       max-width: 100vh;
       text-align: center;
@@ -155,10 +158,8 @@ export default {
         text-align: center;
     }
     @media (max-width: 1300px){
-      th,td,tr{
-        left: 10px;
+      th,td,tr,table,thead{
         position:relative;
-        max-width: 100vh;
         text-align: center;
         font-size: 90%;
     }
@@ -166,4 +167,19 @@ export default {
             width: 100%;
          }
     }
+     @media (max-width: 700px){
+      button{
+        font-size: 7px;
+      }
+      th,td,tr,table,thead{
+        position:relative;
+        text-align: center;
+        font-size: 90%;
+    }
+     }
+     @media (max-width: 402px){
+      table{
+        left: -5px;
+      }
+     }
 </style>
