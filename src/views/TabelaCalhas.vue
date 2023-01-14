@@ -156,7 +156,7 @@ export default {
     }
     @media (max-width: 1300px){
       th,td,tr{
-        left: 0px;
+        left: 10px;
         position:relative;
         max-width: 100vh;
         text-align: center;
