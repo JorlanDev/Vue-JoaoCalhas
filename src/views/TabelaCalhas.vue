@@ -119,7 +119,7 @@ export default {
             this.ValorInputCalc = parseFloat(this.ValorInputPrecoIntl.replace(',','.'))//aqui estou dizendo que quando a mascara colocar uma "," ele ser transformado em um ponto.   
         },
     Update: function(){
-      axios.put("http://localhost:3000/dados/calhas/" + this.IdValue + "/" + this.ValorInputCalc,{
+      axios.put("http://localhost:3000/tabela/calhas" + this.IdValue + "/" + this.ValorInputCalc,{
                 
             }).then(res => {
                 console.log(res);
