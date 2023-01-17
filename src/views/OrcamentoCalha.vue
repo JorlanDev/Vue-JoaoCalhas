@@ -268,7 +268,7 @@ export default {
         }
        
         //Calhas.
-        axios.get("http://178.128.154.242:3000/dados/calhas",req).then(res => {
+        axios.get("178.128.154.242:3000/dados/calhas",req).then(res => {
             console.log(res)
             this.precocalhas = res.data;
         }).catch(err => {
@@ -277,7 +277,7 @@ export default {
         console.log("ola")
 
             //Suportes. 
-        axios.get("http://178.128.154.242:3000/dados/suportes",req).then(res => {
+        axios.get("178.128.154.242:3000/dados/suportes",req).then(res => {
             console.log(res)
             this.precosuportes = res.data;
         }).catch(err => {
