@@ -75,7 +75,7 @@ export default {
 
 
             //Suportes.
-        axios.get("http://178.128.154.242:3000/dados/suportes",).then(res => {
+        axios.get("http://134.209.66.166:3000/dados/suportes",).then(res => {
             console.log(res)
             this.precosuportes = res.data;
         }).catch(err => {
