@@ -70,7 +70,7 @@ export default {
       created(){
 
         //Calhas
-        axios.get("http://localhost:3000/dados/calhas",).then(res => {
+        axios.get("http://178.128.154.242:3000/dados/calhas",).then(res => {
             console.log(res)
             this.precocalhas = res.data;
         }).catch(err => {
