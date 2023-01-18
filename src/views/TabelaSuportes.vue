@@ -75,7 +75,7 @@ export default {
 
 
             //Suportes.
-        axios.get("http://localhost:3000/dados/suportes",).then(res => {
+        axios.get("http://www.jorlan.shop/dados/suportes",).then(res => {
             console.log(res)
             this.precosuportes = res.data;
         }).catch(err => {
@@ -121,7 +121,7 @@ export default {
             this.ValorInputCalc = parseFloat(this.ValorInputPrecoIntl.replace(',','.'))//aqui estou dizendo que quando a mascara colocar uma "," ele ser transformado em um ponto.   
         },
     Update: function(){
-      axios.put("http://localhost:3000/tabela/suportes" + this.IdValue + "/" + this.ValorInputCalc,{
+      axios.put("http://www.jorlan.shop/dados/suportes" + this.IdValue + "/" + this.ValorInputCalc,{
                 
             }).then(res => {
                 console.log(res);
