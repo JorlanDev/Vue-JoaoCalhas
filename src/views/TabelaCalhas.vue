@@ -70,7 +70,7 @@ export default {
       created(){
 
         //Calhas
-        axios.get("http://134.209.66.166:3000/dados/calhas",).then(res => {
+        axios.get("http://www.jorlan.shop/dados/calhas",).then(res => {
             console.log(res)
             this.precocalhas = res.data;
         }).catch(err => {
@@ -119,7 +119,7 @@ export default {
             this.ValorInputCalc = parseFloat(this.ValorInputPrecoIntl.replace(',','.'))//aqui estou dizendo que quando a mascara colocar uma "," ele ser transformado em um ponto.   
         },
     Update: function(){
-      axios.put("http://localhost:3000/tabela/calhas" + this.IdValue + "/" + this.ValorInputCalc,{
+      axios.put("http://www.jorlan.shop/dados/calhas" + this.IdValue + "/" + this.ValorInputCalc,{
                 
             }).then(res => {
                 console.log(res);
