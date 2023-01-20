@@ -268,7 +268,7 @@ export default {
         }
        
         //Calhas.
-        axios.get("https://jorlan.shop/dados/calhas",req).then(res => {
+        axios.get("https://www.jorlan.shop/dados/calhas",req).then(res => {
             console.log(res)
             this.precocalhas = res.data;
         }).catch(err => {
@@ -277,7 +277,7 @@ export default {
         console.log("ola")
 
             //Suportes. 
-        axios.get("https://jorlan.shop/dados/suportes",req).then(res => {
+        axios.get("https://www.jorlan.shop/dados/suportes",req).then(res => {
             console.log(res)
             this.precosuportes = res.data;
         }).catch(err => {
