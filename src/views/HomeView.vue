@@ -23,7 +23,7 @@ h1{
     margin-top: 50px;
 }
 #container-orca{
-        min-height: 66vh;
+        min-height: 70vh;
         width: 50%;
     }
     @media (max-width: 1500px){
